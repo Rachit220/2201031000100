@@ -1,0 +1,73 @@
+.frame-container-item {
+  align-self: stretch;
+  height: 203px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-indianred);
+  display: none;
+}
+.line-separator-icon,
+.price-of-chairs- {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.price-of-chairs- {
+  width: 786px;
+  line-height: 120.31%;
+  display: inline-block;
+  font-weight: 500;
+}
+.line-separator-icon {
+  width: 753px;
+  height: 20px;
+  object-fit: contain;
+}
+.frame-container3,
+.macbook-pro-16-6 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-container3 {
+  width: 804px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-indianred);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 8px 0 59px;
+  max-width: 100%;
+}
+.macbook-pro-16-6 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 133px 60px 1130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 925px) {
+  .price-of-chairs- {
+    font-size: var(--font-size-29xl);
+    line-height: 69px;
+  }
+  .macbook-pro-16-6 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .price-of-chairs- {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+}

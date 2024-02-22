@@ -1,0 +1,160 @@
+.frame-a-child {
+  height: 279px;
+  width: 1724px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkkhaki);
+  display: none;
+  max-width: 100%;
+}
+.apply-discount-coupens {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 500;
+  z-index: 1;
+}
+.frame-a {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkkhaki);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-43xl) 54px var(--padding-44xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-109xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-child2 {
+  height: 304px;
+  width: 507px;
+  position: relative;
+  background-color: var(--color-lightseagreen);
+  display: none;
+  max-width: 100%;
+}
+.buy {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangle-container {
+  width: 507px;
+  background-color: var(--color-lightseagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-56xl) var(--padding-xl) var(--padding-56xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  min-width: 507px;
+  max-width: 100%;
+}
+.frame-child3 {
+  height: 298px;
+  width: 978px;
+  position: relative;
+  background-color: var(--color-skyblue);
+  display: none;
+  max-width: 100%;
+}
+.add-to-cart {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  height: 298px;
+  width: 978px;
+  background-color: var(--color-skyblue);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-26xl) var(--padding-2xl) var(--padding-26xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 978px;
+  max-width: 100%;
+}
+.frame-c,
+.macbook-pro-16-8,
+.rectangle-parent1 {
+  display: flex;
+  align-items: flex-end;
+}
+.frame-c {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-109xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.macbook-pro-16-8 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 883px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1500px) {
+  .rectangle-container,
+  .rectangle-parent1 {
+    flex: 1;
+  }
+  .frame-c {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frame-a {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent1 {
+    min-width: 100%;
+  }
+  .macbook-pro-16-8 {
+    gap: 883px 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .apply-discount-coupens,
+  .buy {
+    font-size: var(--font-size-32xl);
+    line-height: 92px;
+  }
+  .rectangle-container {
+    min-width: 100%;
+  }
+  .add-to-cart {
+    font-size: var(--font-size-32xl);
+    line-height: 92px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .add-to-cart,
+  .apply-discount-coupens,
+  .buy {
+    font-size: var(--font-size-13xl);
+    line-height: 62px;
+  }
+  .macbook-pro-16-8 {
+    gap: 883px 0;
+  }
+}

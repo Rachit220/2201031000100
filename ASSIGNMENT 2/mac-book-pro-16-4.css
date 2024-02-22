@@ -1,0 +1,47 @@
+.rectangle-div {
+  height: 158px;
+  width: 1728px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.welcome-back {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  z-index: 1;
+}
+.our-best-choices {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 500;
+  z-index: 1;
+}
+.macbook-pro-16-4,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rectangle-parent {
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  align-items: flex-end;
+  padding: 9px var(--padding-xl) var(--padding-14xl) var(--padding-14xl);
+  gap: 0 50px;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: #1b1a17;
+  font-family: var(--font-inter);
+}
+.macbook-pro-16-4 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 842px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

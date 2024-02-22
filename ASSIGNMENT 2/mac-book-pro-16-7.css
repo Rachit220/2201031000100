@@ -1,0 +1,152 @@
+.vector-guide {
+  border: 0;
+  outline: 0;
+  background-color: #3c3636;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.classical-sofas- {
+  position: relative;
+  line-height: 120.31%;
+  display: inline-block;
+  font-weight: 500;
+  max-width: 100%;
+}
+.second-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 66px;
+  max-width: 100%;
+}
+.third-frame-icon {
+  height: 126px;
+  width: 157px;
+  position: relative;
+}
+.star-icon1 {
+  width: 599px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.parent-frame,
+.second-rectangle-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.second-rectangle-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 93px 0;
+}
+.parent-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-44xl);
+  box-sizing: border-box;
+}
+.fifth-frame-child {
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rectangle-pair {
+  width: 64px;
+  height: 23px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 374px;
+  background-color: var(--color-gainsboro);
+}
+.fifth-frame {
+  width: 1751px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 109px 0 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+.fourth-frame,
+.macbook-pro-16-7 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.fourth-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+}
+.macbook-pro-16-7 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0 0;
+  gap: 905px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .parent-frame {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .classical-sofas- {
+    font-size: var(--font-size-29xl);
+    line-height: 69px;
+  }
+  .second-rectangle {
+    flex-wrap: wrap;
+    gap: 0 66px;
+  }
+  .second-rectangle-parent {
+    gap: 93px 0;
+  }
+  .macbook-pro-16-7 {
+    gap: 905px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .classical-sofas- {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .second-rectangle {
+    gap: 0 66px;
+  }
+  .second-rectangle-parent {
+    gap: 93px 0;
+  }
+  .macbook-pro-16-7 {
+    gap: 905px 0;
+  }
+}

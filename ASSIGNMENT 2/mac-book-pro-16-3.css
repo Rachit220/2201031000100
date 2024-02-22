@@ -1,0 +1,280 @@
+.ellipse-div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: #6c6060;
+}
+.ellipse-wrapper {
+  height: 117px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+}
+.search {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 600;
+}
+.search-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 0 0;
+}
+.p {
+  font-weight: 600;
+}
+.rice {
+  font-size: var(--font-size-45xl);
+  font-weight: 500;
+}
+.price {
+  position: relative;
+  line-height: 120.31%;
+}
+.frame-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 90px;
+}
+.info {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 500;
+}
+.frame-frame1,
+.new {
+  font-size: var(--font-size-45xl);
+}
+.frame-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11px 0 0;
+}
+.new {
+  height: 247px;
+  flex: 1;
+  position: relative;
+  line-height: 120.31%;
+  display: inline-block;
+  font-weight: 500;
+  min-width: 84px;
+}
+.frame-price-info,
+.price-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-price-info {
+  width: 597px;
+  flex-direction: row;
+  gap: 0 31px;
+}
+.price-frame {
+  width: 711px;
+  flex-direction: column;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.guest-frame-child {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #423636;
+  min-width: 100px;
+}
+.guest {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 500;
+}
+.text-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+}
+.frame-section,
+.guest-frame {
+  display: flex;
+  flex-direction: row;
+}
+.guest-frame {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 30px;
+  font-size: var(--font-size-45xl);
+}
+.frame-section {
+  width: 1393px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.the-best-wood {
+  width: 785px;
+  position: relative;
+  line-height: -5px;
+  display: inline-block;
+  font-weight: 600;
+  flex-shrink: 0;
+  transform: rotate(0.68deg);
+  max-width: 100%;
+}
+.best-wood-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.modern {
+  height: -16px;
+  position: relative;
+  line-height: 120.31%;
+  display: inline-block;
+  font-weight: 600;
+}
+.modern-frame {
+  height: -5px;
+  width: 1045px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+}
+.macbook-pro-16-3,
+.modern-frame,
+.product-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.product-frame {
+  width: 1319px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.macbook-pro-16-3 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px var(--padding-xl) 134px 181px;
+  box-sizing: border-box;
+  gap: 686px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .frame-section {
+    flex-wrap: wrap;
+  }
+  .macbook-pro-16-3 {
+    gap: 686px 0;
+    padding-left: 90px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .info,
+  .new,
+  .price,
+  .search {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .info,
+  .new,
+  .price {
+    line-height: 62px;
+  }
+  .info,
+  .new {
+    font-size: var(--font-size-32xl);
+  }
+  .frame-price-info {
+    flex-wrap: wrap;
+    gap: 0 31px;
+  }
+  .guest,
+  .modern,
+  .the-best-wood {
+    font-size: var(--font-size-32xl);
+    line-height: 62px;
+  }
+  .macbook-pro-16-3 {
+    gap: 686px 0;
+    padding-left: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .info,
+  .new,
+  .price,
+  .search {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .info,
+  .new,
+  .price {
+    line-height: 46px;
+  }
+  .info,
+  .new {
+    font-size: var(--font-size-19xl);
+  }
+  .guest-frame-child {
+    flex: 1;
+  }
+  .guest {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .guest-frame {
+    flex-wrap: wrap;
+  }
+  .modern,
+  .the-best-wood {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .macbook-pro-16-3 {
+    gap: 686px 0;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

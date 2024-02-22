@@ -1,0 +1,130 @@
+.welcome-in {
+  position: relative;
+  line-height: 120.31%;
+}
+.line-div {
+  width: 251px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.welcome-in-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+.shop-now {
+  position: relative;
+  line-height: 120.31%;
+  font-weight: 100;
+}
+.shop-now-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-43xl);
+}
+.click-here {
+  align-self: stretch;
+  height: 79px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 120.31%;
+  display: inline-block;
+  color: #431a0d;
+  flex-shrink: 0;
+}
+.mid-frame {
+  width: 374px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 268px 0;
+  max-width: 100%;
+}
+.line-node,
+.macbook-pro-16-2 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: var(--font-inter);
+}
+.line-node {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 644px;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: #544949;
+}
+.macbook-pro-16-2 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-64xl) 66px var(--padding-75xl);
+  gap: 501px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  font-size: var(--font-size-21xl);
+  color: #654e4e;
+}
+@media screen and (max-width: 1025px) {
+  .line-node {
+    padding-left: 322px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .click-here,
+  .welcome-in {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .macbook-pro-16-2 {
+    gap: 501px 0;
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .line-node {
+    padding-left: 161px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-in {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .shop-now {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .click-here {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .mid-frame {
+    gap: 268px 0;
+  }
+  .line-node {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .macbook-pro-16-2 {
+    gap: 501px 0;
+  }
+}
